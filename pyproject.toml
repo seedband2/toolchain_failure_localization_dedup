@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "seedband2-vidgen_jd350"
+name = "seedband2-toolchain_failure_localization_dedup"
 version = "0.1.0"
 description = "对内容做归一化与分片比对，找出文生视频工程师·多轮工具链的失败定位上的重复项并按相似度归并"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://seedband2.github.io"
-Repository = "https://github.com/seedband2/vidgen_jd350"
-Issues = "https://github.com/seedband2/vidgen_jd350/issues"
+Repository = "https://github.com/seedband2/toolchain_failure_localization_dedup"
+Issues = "https://github.com/seedband2/toolchain_failure_localization_dedup/issues"
 
 [project.scripts]
-vidgen_jd350 = "vidgen_jd350:main"
+toolchain_failure_localization_dedup = "toolchain_failure_localization_dedup:main"
 
 [tool.setuptools]
-py-modules = ["vidgen_jd350"]
+py-modules = ["toolchain_failure_localization_dedup"]
